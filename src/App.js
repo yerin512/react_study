@@ -1,11 +1,12 @@
 
 import './App.css';
+import EventPractice from './EventPractice';
 import MyComponent from './MyComponent';
 
 function App() {
   return (
     <div className="App">
-    <MyComponent numnum={'ㅇㅇ'} name="예린">리액트</MyComponent>
+    <EventPractice/>
     </div>
   );
 }
