@@ -1,15 +1,25 @@
 
+import { Component } from 'react';
 import './App.css';
 import EventPractice from './EventPractice';
-import MyComponent from './MyComponent';
+import ValidationSample from './ValidationSample';
 
-function App() {
-  return (
-    <div className="App">
-    <EventPractice/>
-    </div>
-  );
+// function App() {
+//   return (
+//     <div className="App">
+//     <ValidationSample/>
+//     </div>
+//   );
+// }
+class App extends Component {
+  renter(){
+    return(
+      <ValidationSample/>
+    )
+  }
 }
+
+
 
 export default App;
              
